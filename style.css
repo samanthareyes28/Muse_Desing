@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f9fb, #e3ebf0);
+    color: #080808;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+  }
+
+  .logo {
+    height: 60px;
+    width:auto;
+    display: block;
+   
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+  }
+
+  .logo span {
+    color: #0c0c0c;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #00a6a6;
+  }
+
+  .hero {
+    
+  background-image: url("img/WhatsApp\ Image\ 2025-10-21\ at\ 4.32.19\ PM.jpeg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  margin: 0;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-family:"https://fonts.googleapis.com/css2?family=Anton&display=swap" ;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000000f6;
+    padding: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+
+  .hero button {
+    margin-top: 2rem;
+    padding: 0.9rem 2rem;
+    background: #fff;
+    color: #063a3a;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: "background "0.3s ease, color 0.3s ease;
+  }
+
+  .inicio {background: f5f5f5;
+  }
+  .servicios {background: e8f0fe;}
+
+  section {
+    padding: 5rem 4rem;
+  }
+
+  .servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .card h3 {
+    color: #00a6a6;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    background: #0c0c0c;
+    color: #ddd;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+
+  footer a {
+    color: #00a6a6;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  html {
+  scroll-behavior: smooth;
+}
